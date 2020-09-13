@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tikatok/static/css/main.fabcafaa.chunk.css",
+    "main.js": "/tikatok/static/js/main.ac42fdfc.chunk.js",
+    "main.js.map": "/tikatok/static/js/main.ac42fdfc.chunk.js.map",
+    "runtime-main.js": "/tikatok/static/js/runtime-main.6450a769.js",
+    "runtime-main.js.map": "/tikatok/static/js/runtime-main.6450a769.js.map",
+    "static/js/2.4c0f06b3.chunk.js": "/tikatok/static/js/2.4c0f06b3.chunk.js",
+    "static/js/2.4c0f06b3.chunk.js.map": "/tikatok/static/js/2.4c0f06b3.chunk.js.map",
+    "index.html": "/tikatok/index.html",
+    "precache-manifest.7eb2491e7ba9de5fb7f8afaf0cd22712.js": "/tikatok/precache-manifest.7eb2491e7ba9de5fb7f8afaf0cd22712.js",
+    "service-worker.js": "/tikatok/service-worker.js",
+    "static/css/main.fabcafaa.chunk.css.map": "/tikatok/static/css/main.fabcafaa.chunk.css.map",
+    "static/js/2.4c0f06b3.chunk.js.LICENSE.txt": "/tikatok/static/js/2.4c0f06b3.chunk.js.LICENSE.txt",
+    "static/media/first.mp4": "/tikatok/static/media/first.b3b1cb70.mp4",
+    "static/media/second.mp4": "/tikatok/static/media/second.0a469f67.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6450a769.js",
+    "static/js/2.4c0f06b3.chunk.js",
+    "static/css/main.fabcafaa.chunk.css",
+    "static/js/main.ac42fdfc.chunk.js"
+  ]
+}

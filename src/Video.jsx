@@ -1,5 +1,7 @@
 import React, { useRef, useState } from "react";
-// import img from './videos/image.jpeg'
+import VideoFooter from "./VideoFooter";
+import VideoSidebar from "./VideoSidebar";
+
 function Video(props) {
   const videoRef = useRef();
   const [playing, setPlaying] = useState(true);
@@ -28,9 +30,18 @@ function Video(props) {
           loop
           autoPlay
         />
-        {/* video footer */}
-
-        {/* video sidebar */}
+        <div className="video_element">
+          <VideoFooter
+            creator={props.creator}
+            desc={props.desc}
+            song={props.song}
+          />
+          <VideoSidebar
+            likes={props.likes}
+            comments={props.comments}
+            share={props.share}
+          />
+        </div>
       </div>
     </>
   );

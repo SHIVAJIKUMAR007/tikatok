@@ -1,22 +1,17 @@
+@import "https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
   font-size: 1.6rem;
+  font-family: "Josefin Sans", sans-serif;
 }
 body {
   scroll-snap-type: y mandatory;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
 
 .app {
@@ -45,6 +40,7 @@ code {
 }
 
 video {
+  position: absolute;
   border-radius: 2rem;
   height: 23rem;
   width: 13rem;
@@ -58,4 +54,32 @@ video {
 .app_video {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+.video_element {
+  display: flex;
+  flex-direction: row;
+}
+
+/* video footer  */
+.video_footer {
+  z-index: 1;
+  position: absolute;
+  color: aliceblue;
+  bottom: 2rem;
+  flex: 1;
+}
+.video_footer > h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.video_footer > p {
+  font-size: 0.5rem;
+}
+/* video_sidebar */
+.video_sidebar {
+  z-index: 1;
+  flex: 1;
+  color: aliceblue;
+  margin: 120% 4% 0% 80%;
+  font-size: 70%;
 }
